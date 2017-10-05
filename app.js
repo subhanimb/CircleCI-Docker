@@ -12,6 +12,7 @@ app.get('/stat', function(req, res) {
     res.send("Deployed Successfully");
 });
 
+
 app.get('/', function(req, res) {
     res.render('home', {
   });
